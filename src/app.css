@@ -1,0 +1,35 @@
+.fab {
+    font-family: "Font Awesome 5 Brands", "fa-brands-400";
+    font-weight: 400;
+}
+.fas {
+    font-family: "Font Awesome 5 Free", "fa-solid-900";
+    font-weight: 900;
+}
+.far {
+    font-family: "Font Awesome 5 Free", "fa-regular-400";
+    font-weight: 400;
+}
+
+.page {
+    background-color: #585fb2;
+}
+.container {
+    background: #ffffff;
+    border-radius: 38 38 0 0;
+    margin-top: 32;
+    height: 100%;
+}
+
+Label {
+    font-size: 12;
+    margin: 4 0;
+    line-height: 4;
+}
+
+.h1 {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 24 0;
+    font-size: 28;
+}
