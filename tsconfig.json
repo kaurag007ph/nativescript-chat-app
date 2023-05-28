@@ -1,22 +1,26 @@
 {
   "compilerOptions": {
-      "module": "esnext",
-      "target": "es2017",
-      "moduleResolution": "node",
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "noEmitHelpers": true,
-      "noEmitOnError": true,
-      "skipLibCheck": true,
-      "lib": [
-        "es2018", "es2017", "dom", "es6"
-      ],
-      "baseUrl": ".",
-      "paths": {
-          "~/*": [
-              "app/*"
-          ]
-      }
+    "module": "esnext",
+    "target": "es2017",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmitHelpers": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "lib": [
+      "es2018",
+      "es2017",
+      "dom",
+      "es6"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "app/*"
+      ]
+    },
+    "removeComments": false
   },
   "include": [
     "src/tests/**/*.ts",
@@ -25,11 +29,12 @@
   ],
   "files": [
     "./references.d.ts",
-    "./src/main.ts"
+    "./src/main.ts",
+    "./src/polyfills.ts"
   ],
   "exclude": [
-      "node_modules",
-      "platforms",
-      "e2e"
+    "node_modules",
+    "platforms",
+    "e2e"
   ]
 }
